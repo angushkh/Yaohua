@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138333496658",
+    "firebase_url": "https://yaohua-9f0bd.firebaseio.com",
+    "project_id": "yaohua-9f0bd",
+    "storage_bucket": "yaohua-9f0bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138333496658:android:0f494c20a3a4891990468b",
+        "android_client_info": {
+          "package_name": "yaohua.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138333496658-sbdilv9u33kagc4qpkbdt7ekfdguc59k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQMpujmFQRlg1a_amkjou0Mf22R-g7RAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138333496658-sbdilv9u33kagc4qpkbdt7ekfdguc59k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

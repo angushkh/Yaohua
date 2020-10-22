@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yaohua.com">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Hot_sells"/>
+        <activity android:name=".Proudcts.Ladder" />
+        <activity android:name=".Proudcts.Dredge_machine" />
+        <activity android:name=".Proudcts.Garden_tools" />
+        <activity android:name=".Proudcts.Bench_drill" />
+        <activity android:name=".Proudcts.Bender" />
+        <activity android:name=".Proudcts.Threading_machine" />
+        <activity android:name=".Proudcts.Lifting_equipment" />
+        <activity android:name=".Proudcts.Welding_equipment" />
+        <activity android:name=".Proudcts.Electric_tool" />
+        <activity android:name=".Homepage" />
+        <activity
+            android:name=".Mine"
+            android:screenOrientation="portrait" />
+        <activity android:name=".login_and_registration.reset_password" />
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_and_registration.Login"
+            android:screenOrientation="portrait" />
+        <activity android:name=".login_and_registration.Registration" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

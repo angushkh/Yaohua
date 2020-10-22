@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Proudcts.Ladder">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/blue"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ladder"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNAV10"
+        app:menu="@menu/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/blue"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        app:labelVisibilityMode="labeled"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

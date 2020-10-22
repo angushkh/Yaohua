@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Hot_sells"
+        android:icon="@drawable/star_icon"
+        android:enabled="true"
+        android:title="Hot sells"/>
+
+    <item
+        android:id="@+id/Homepage"
+        android:icon="@drawable/homepage_icon"
+        android:enabled="true"
+        android:title="Homepage" />
+
+
+    <item
+        android:id="@+id/PersonalPage"
+        android:icon="@drawable/personal_page_icon"
+        android:enabled="true"
+        android:title="Mine Page"/>
+
+</menu>
